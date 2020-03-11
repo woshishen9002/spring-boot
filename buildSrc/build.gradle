@@ -5,6 +5,8 @@ plugins {
 }
 
 repositories {
+	//WH.
+	mavenLocal()
 	mavenCentral()
 	gradlePluginPortal()
 	maven { url "https://repo.spring.io/release" }

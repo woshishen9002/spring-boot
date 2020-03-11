@@ -8,6 +8,8 @@ allprojects {
 	group "org.springframework.boot"
 
 	repositories {
+		//WH.
+		mavenLocal()
 		mavenCentral()
 		if (!version.endsWith('RELEASE')) {
 			maven { url "https://repo.spring.io/milestone" }
